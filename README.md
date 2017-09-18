@@ -1,2 +1,9 @@
 # Lab2-LinkedLists
-Follow the Instructions found in Lab2-Linked_Lists.odt and use the code in the code/ folder to complete this lab.
+
+## Details
+
+Hunter Jones
+
+Lab #2
+
+COSC 2030 Lab Section 10A

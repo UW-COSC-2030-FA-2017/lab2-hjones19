@@ -1,16 +1,40 @@
 // ListProcessor.cpp
 
-// tom bailey   1540  30 sep 2011
-
-// tom bailey   1030  27 jan 2012
+// Hunter Jones - COSC2030 - Lab #2
 // Exercise the List class with verbose Node constructor
 //   and destructor.
 
-#include "LinkedList.cpp"
+#include <iostream>
+using namespace std;
+
+#include "LinkedList.h"
 
 
 int main()
 {
+	// Begin HJ code
+	
+	List empty;
+	// Checking size of empty list. Expect 0:
+	cout << "This empty list has " << empty.size() << " elements." << endl;
+	// Checking the sum of empty list. Expect 0:
+	cout << "The sum of this list sums to " << empty.sum() << endl;
+	// Testing insertAsLast with no previous elements
+	empty.insertAsLast(4.3);
+	cout << "(non-)empty list now: " << empty << endl;
+	// Checking size of list with 1 element. Expect 1:
+	cout << "This (non-)empty list has " << empty.size() << " elements." << endl;
+	// Testing insertAsLast with an existing previous element
+	empty.insertAsLast(80.1);
+	empty.insertAsLast(40.2);
+	cout << "(non-) empty list now: " << empty << endl;
+	// Testing size of list with 3 elements. Expect 3:
+	cout << "This (non-)empty list has " << empty.size() << " elements." << endl;
+	// Checking the sum of this list. Expect 124.6:
+	cout << "This (non-)empty list sums to " << empty.sum() << endl;
+	
+	// End HJ code
+	
 	List cows;
 	cout << "cows list  :  " << cows << endl << endl;
 

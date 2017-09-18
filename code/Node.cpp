@@ -1,5 +1,5 @@
 // Node.cpp
-// tom bailey   1050  31 jan 2011
+// Hunter Jones - COSC2030 - Lab #2
 // Definitions of the Node class methods
 
 
